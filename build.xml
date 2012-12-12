@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project name="LF_Expedia" basedir="." default="deploy-dev.local">
+    <property file="build.properties"/>
+    <property name="targetdir" value="/var/www/magento" override="true"/>
+    <property name="srcdir" value="${project.basedir}/src"/>
+    <target name="deploy-dev.local">
+        <copy todir="${targetdir}">
+            <fileset dir="${srcdir}">
+                <include name="**/*"/>
+            </fileset>
+        </copy>
+    </target>
+</project>
