@@ -1,0 +1,5 @@
+{
+    "require": {
+        "phing/phing": "dev-master"
+    }
+}
