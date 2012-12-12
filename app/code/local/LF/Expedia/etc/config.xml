@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <LF_Expedia>
+            <version>0</version>
+        </LF_Expedia>
+    </modules>
+    <global>
+        <models>
+            <hotels>
+                <class>LF_Expedia_Hotels</class>
+            </hotels>
+        </models>
+    </global>
+</config>
